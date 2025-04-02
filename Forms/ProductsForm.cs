@@ -42,9 +42,9 @@ namespace ToyShop.Forms
             // flowLayoutPanel
             // 
             flowLayoutPanel.AutoScroll = true;
-            flowLayoutPanel.Location = new Point(12, 78);
+            flowLayoutPanel.Location = new Point(0, 84);
             flowLayoutPanel.Name = "flowLayoutPanel";
-            flowLayoutPanel.Size = new Size(884, 615);
+            flowLayoutPanel.Size = new Size(878, 750);
             flowLayoutPanel.TabIndex = 0;
             // 
             // manageButton
@@ -91,7 +91,7 @@ namespace ToyShop.Forms
             AutoScaleDimensions = new SizeF(144F, 144F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(878, 694);
+            ClientSize = new Size(878, 834);
             Controls.Add(filterButton);
             Controls.Add(filterTextBox);
             Controls.Add(label1);

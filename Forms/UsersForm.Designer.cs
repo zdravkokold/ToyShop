@@ -67,7 +67,7 @@
             // 
             // editButton
             // 
-            editButton.Location = new Point(299, 306);
+            editButton.Location = new Point(299, 359);
             editButton.Name = "editButton";
             editButton.Size = new Size(135, 56);
             editButton.TabIndex = 1;
@@ -77,7 +77,7 @@
             // 
             // deleteButton
             // 
-            deleteButton.Location = new Point(445, 306);
+            deleteButton.Location = new Point(445, 359);
             deleteButton.Name = "deleteButton";
             deleteButton.Size = new Size(135, 56);
             deleteButton.TabIndex = 2;
@@ -156,7 +156,7 @@
             formPanel.Controls.Add(addressTextBox);
             formPanel.Controls.Add(emailTextBox);
             formPanel.Controls.Add(label2);
-            formPanel.Location = new Point(23, 375);
+            formPanel.Location = new Point(23, 431);
             formPanel.Name = "formPanel";
             formPanel.Size = new Size(834, 251);
             formPanel.TabIndex = 13;
@@ -225,11 +225,11 @@
             // salesLabel
             // 
             salesLabel.AutoSize = true;
-            salesLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            salesLabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             salesLabel.ForeColor = Color.Green;
-            salesLabel.Location = new Point(23, 323);
+            salesLabel.Location = new Point(294, 319);
             salesLabel.Name = "salesLabel";
-            salesLabel.Size = new Size(236, 25);
+            salesLabel.Size = new Size(263, 28);
             salesLabel.TabIndex = 15;
             salesLabel.Text = "Общо продажби: 0.00 лв.";
             // 
@@ -238,7 +238,7 @@
             AutoScaleDimensions = new SizeF(144F, 144F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(878, 644);
+            ClientSize = new Size(878, 694);
             Controls.Add(salesLabel);
             Controls.Add(label4);
             Controls.Add(filterButton);

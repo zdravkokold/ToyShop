@@ -41,7 +41,7 @@
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(150, 298);
+            btnLogin.Location = new Point(146, 294);
             btnLogin.Margin = new Padding(2);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(164, 56);
@@ -111,7 +111,7 @@
             // 
             // btnRegister
             // 
-            btnRegister.Location = new Point(381, 298);
+            btnRegister.Location = new Point(326, 294);
             btnRegister.Margin = new Padding(2);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(164, 56);

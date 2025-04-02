@@ -139,7 +139,14 @@ namespace ToyShop
         {
             cart.Add(product);
 
-            MessageBox.Show("Успешно добавихте продукт във вашата количка!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (product.Quantity == 1)
+            {
+                MessageBox.Show("Успешно добавихте продукт във вашата количка!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (product.Quantity > 1)
+            {
+                MessageBox.Show($"Успешно добавихте {product.Quantity} продукта във вашата количка!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         public List<Product> GetCartProducts() => cart;
