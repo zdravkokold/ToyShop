@@ -1,4 +1,5 @@
-﻿using ToyShop.Entities;
+﻿using System.Windows.Forms;
+using ToyShop.Entities;
 
 namespace ToyShop.Forms
 {
@@ -41,10 +42,13 @@ namespace ToyShop.Forms
             // 
             // flowLayoutPanel
             // 
+            flowLayoutPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             flowLayoutPanel.AutoScroll = true;
             flowLayoutPanel.Location = new Point(0, 84);
+            flowLayoutPanel.Margin = new Padding(5);
             flowLayoutPanel.Name = "flowLayoutPanel";
-            flowLayoutPanel.Size = new Size(878, 750);
+            flowLayoutPanel.Padding = new Padding(5);
+            flowLayoutPanel.Size = new Size(878, 610);
             flowLayoutPanel.TabIndex = 0;
             // 
             // manageButton
@@ -91,7 +95,7 @@ namespace ToyShop.Forms
             AutoScaleDimensions = new SizeF(144F, 144F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(878, 834);
+            ClientSize = new Size(878, 694);
             Controls.Add(filterButton);
             Controls.Add(filterTextBox);
             Controls.Add(label1);

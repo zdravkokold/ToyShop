@@ -17,9 +17,9 @@ namespace ToyShop.Forms
         private void ConfigureListView()
         {
             cartListView.View = View.Details;
-            cartListView.Columns.Add("Продукт", 200);
-            cartListView.Columns.Add("Цена", 200);
-            cartListView.Columns.Add("Количество", 200);
+            cartListView.Columns.Add("Продукт", 194);
+            cartListView.Columns.Add("Цена", 194);
+            cartListView.Columns.Add("Количество", 194);
             cartListView.FullRowSelect = true;
             cartListView.GridLines = true;
         }
@@ -80,7 +80,7 @@ namespace ToyShop.Forms
                 if (result == DialogResult.Cancel)
                 {
                     return;
-                }                
+                }
 
                 if (result == DialogResult.No)
                 {
@@ -120,5 +120,11 @@ namespace ToyShop.Forms
                 MessageBox.Show("Неуспешна поръчка!", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void clearCartButton_Click(object sender, EventArgs e)
+        {
+            shopService.ClearCart();
+            LoadCartProducts();
+        } 
     }
 }

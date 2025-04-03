@@ -134,7 +134,7 @@ namespace ToyShop.Forms
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "ShippingForm";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "Въведете адрес за доставка";
+            Text = "Адрес за доставка";
             ResumeLayout(false);
             PerformLayout();
         }

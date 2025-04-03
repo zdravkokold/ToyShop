@@ -67,7 +67,7 @@
             // 
             // editButton
             // 
-            editButton.Location = new Point(299, 359);
+            editButton.Location = new Point(299, 367);
             editButton.Name = "editButton";
             editButton.Size = new Size(135, 56);
             editButton.TabIndex = 1;
@@ -77,7 +77,7 @@
             // 
             // deleteButton
             // 
-            deleteButton.Location = new Point(445, 359);
+            deleteButton.Location = new Point(445, 367);
             deleteButton.Name = "deleteButton";
             deleteButton.Size = new Size(135, 56);
             deleteButton.TabIndex = 2;
@@ -156,9 +156,9 @@
             formPanel.Controls.Add(addressTextBox);
             formPanel.Controls.Add(emailTextBox);
             formPanel.Controls.Add(label2);
-            formPanel.Location = new Point(23, 431);
+            formPanel.Location = new Point(23, 442);
             formPanel.Name = "formPanel";
-            formPanel.Size = new Size(834, 251);
+            formPanel.Size = new Size(834, 242);
             formPanel.TabIndex = 13;
             // 
             // fullNameTextBox
@@ -227,7 +227,7 @@
             salesLabel.AutoSize = true;
             salesLabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             salesLabel.ForeColor = Color.Green;
-            salesLabel.Location = new Point(294, 319);
+            salesLabel.Location = new Point(289, 325);
             salesLabel.Name = "salesLabel";
             salesLabel.Size = new Size(263, 28);
             salesLabel.TabIndex = 15;

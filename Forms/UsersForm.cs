@@ -1,4 +1,5 @@
-﻿using ToyShop.Entities;
+﻿using System.Windows.Forms;
+using ToyShop.Entities;
 
 namespace ToyShop.Forms
 {
@@ -24,6 +25,10 @@ namespace ToyShop.Forms
             HideColumns("Id", "NormalizedUserName", "NormalizedEmail", "EmailConfirmed",
                         "SecurityStamp", "ConcurrencyStamp", "PhoneNumberConfirmed", "PasswordHash",
                         "TwoFactorEnabled", "LockoutEnd", "LockoutEnabled", "AccessFailedCount");
+
+            usersGridView.Columns["UserName"].HeaderText = "Потребителско име";
+            usersGridView.Columns["Email"].HeaderText = "Имейл";
+            usersGridView.Columns["PhoneNumber"].HeaderText = "Телефон";
         }
 
         private void CalculateSales()
