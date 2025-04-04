@@ -108,4 +108,4 @@
 - **Валидиране на входни данни**: Всички входни данни се валидират, за да се предотвратят SQL инжекции и други атаки 
 
 ## Документация
-https://docs.google.com/document/d/1vuWjdkIKzOFpSX-uS1vK5JvexKEkhkUJGHaZTdf0Uz4/edit?usp=sharing
+https://shorturl.at/mSfxI
