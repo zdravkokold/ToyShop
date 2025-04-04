@@ -17,12 +17,6 @@ namespace ToyShop
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Product>().HasData(
-                new Product { Id = 1, Name = "Teddy Bear", Price = 20.99M },
-                new Product { Id = 2, Name = "Lego Set", Price = 49.99M },
-                new Product { Id = 3, Name = "Toy Car", Price = 15.50M }
-            );
         }
     }
 }
