@@ -77,7 +77,7 @@
             // 
             // logOutBbutton
             // 
-            logOutBbutton.Location = new Point(11, 717);
+            logOutBbutton.Location = new Point(11, 650);
             logOutBbutton.Name = "logOutBbutton";
             logOutBbutton.Size = new Size(155, 42);
             logOutBbutton.TabIndex = 5;
@@ -100,7 +100,7 @@
             AutoScaleDimensions = new SizeF(144F, 144F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1080, 768);
+            ClientSize = new Size(1080, 767);
             Controls.Add(cartButton);
             Controls.Add(logOutBbutton);
             Controls.Add(logoPictureBox);

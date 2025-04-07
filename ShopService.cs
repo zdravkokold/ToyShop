@@ -83,24 +83,6 @@ namespace ToyShop
             return true;
         }
 
-        public byte[] SelectImageFile()
-        {
-            if (Session.UserRole != "Admin")
-            {
-                throw new UnauthorizedAccessException("Only admins can upload product images.");
-            }            
-
-            using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            {
-                openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    return File.ReadAllBytes(openFileDialog.FileName);
-                }
-            }
-            return null;
-        }
-
         public List<User> GetUsers()
         {
             return context.Users.ToList();

@@ -1,5 +1,4 @@
-﻿using System.Windows.Forms;
-using ToyShop.Entities;
+﻿using ToyShop.Entities;
 
 namespace ToyShop.Forms
 {
@@ -41,7 +40,7 @@ namespace ToyShop.Forms
         {
             if (usersGridView.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Моля, изберете служител за редактиране.");
+                MessageBox.Show("Моля, изберете потребител за редактиране.");
                 return;
             }
 
@@ -61,12 +60,12 @@ namespace ToyShop.Forms
         {
             if (usersGridView.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Моля, изберете служител за изтриване.");
+                MessageBox.Show("Моля, изберете потребител за изтриване.");
                 return;
             }
 
             string? userId = usersGridView.SelectedRows[0].Cells["Id"].Value.ToString();
-            var result = MessageBox.Show("Сигурни ли сте, че искате да изтриете този служител?", "Потвърждение", MessageBoxButtons.YesNo);
+            var result = MessageBox.Show("Сигурни ли сте, че искате да изтриете този потребител?", "Потвърждение", MessageBoxButtons.YesNo);
 
             if (result == DialogResult.Yes)
             {

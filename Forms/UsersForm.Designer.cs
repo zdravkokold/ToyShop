@@ -135,7 +135,7 @@
             // 
             // saveButton
             // 
-            saveButton.Location = new Point(348, 180);
+            saveButton.Location = new Point(334, 161);
             saveButton.Name = "saveButton";
             saveButton.Size = new Size(135, 56);
             saveButton.TabIndex = 12;
@@ -156,9 +156,9 @@
             formPanel.Controls.Add(addressTextBox);
             formPanel.Controls.Add(emailTextBox);
             formPanel.Controls.Add(label2);
-            formPanel.Location = new Point(23, 442);
+            formPanel.Location = new Point(23, 429);
             formPanel.Name = "formPanel";
-            formPanel.Size = new Size(834, 242);
+            formPanel.Size = new Size(834, 255);
             formPanel.TabIndex = 13;
             // 
             // fullNameTextBox

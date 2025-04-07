@@ -36,7 +36,7 @@
             // 
             // placeOrderButton
             // 
-            placeOrderButton.Location = new Point(682, 643);
+            placeOrderButton.Location = new Point(687, 615);
             placeOrderButton.Name = "placeOrderButton";
             placeOrderButton.Size = new Size(176, 58);
             placeOrderButton.TabIndex = 0;
@@ -49,7 +49,7 @@
             totalSumLabel.AutoSize = true;
             totalSumLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             totalSumLabel.ForeColor = Color.Green;
-            totalSumLabel.Location = new Point(15, 654);
+            totalSumLabel.Location = new Point(15, 626);
             totalSumLabel.Name = "totalSumLabel";
             totalSumLabel.Size = new Size(189, 32);
             totalSumLabel.TabIndex = 1;
@@ -60,14 +60,14 @@
             cartListView.BackColor = SystemColors.InactiveCaption;
             cartListView.Location = new Point(13, 12);
             cartListView.Name = "cartListView";
-            cartListView.Size = new Size(850, 620);
+            cartListView.Size = new Size(850, 594);
             cartListView.TabIndex = 2;
             cartListView.UseCompatibleStateImageBehavior = false;
             cartListView.View = View.Details;
             // 
             // clearCartButton
             // 
-            clearCartButton.Location = new Point(448, 643);
+            clearCartButton.Location = new Point(454, 615);
             clearCartButton.Name = "clearCartButton";
             clearCartButton.Size = new Size(215, 58);
             clearCartButton.TabIndex = 3;
@@ -80,7 +80,7 @@
             AutoScaleDimensions = new SizeF(144F, 144F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(878, 714);
+            ClientSize = new Size(878, 694);
             Controls.Add(clearCartButton);
             Controls.Add(cartListView);
             Controls.Add(totalSumLabel);
